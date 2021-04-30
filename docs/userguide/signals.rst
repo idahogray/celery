@@ -289,6 +289,11 @@ Provides arguments:
 
     The :class:`billiard.einfo.ExceptionInfo` instance.
 
+.. warning::
+
+   This signal is not dispatched when running with :setting:`task_always_eager` setting set to True
+   
+   
 ``task_internal_error``
 ~~~~~~~~~~~~~~~~~~~~~~~
 
